@@ -1,13 +1,12 @@
 body {
     background-color: #FAB2EA;
-    width: 1000px;
-    margin-left: auto;
-    margin-right: auto;
+    
     font-family: 'Lato', sans-serif;
 }
 .navigation {
     background-color: #4A051C;
     height: 45px;
+    width: 800px;
 }
 
 .mainCaption {
