@@ -1,18 +1,22 @@
 body {
     background-color: #FAB2EA;
-    
     font-family: 'Lato', sans-serif;
 }
 .navigation {
     background-color: #4A051C;
     height: 45px;
-    width: 800px;
+}
+
+.nav {
+    display: inline-block;
+    max-width: 830px;
 }
 
 .mainCaption {
     color: #4A051C;
     text-transform: uppercase;
     letter-spacing: 5px;
+    
 }
 .mainHeader {
     color: #4A051C;
@@ -25,11 +29,18 @@ body {
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 5px;
+    border-radius: 30px;
 }
 
 .paragraph {
     text-align: justify;
     padding: 15px;
+}
+
+.headerFlower {
+    color: white;
+    background: #4A051C;
+    border-radius: 30px;
 }
 
 .mainlink {
