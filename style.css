@@ -12,11 +12,14 @@ main {
 .navigation {
     background-color: #4A051C;
     height: 45px;
+    max-width: 830px;
+    width: auto;
+    margin: auto;
+    border-radius: 30px;
 }
 
 .nav {
     display: inline-block;
-    max-width: 830px;
 }
 
 .mainCaption {
@@ -61,7 +64,7 @@ main {
 
 .mainlink {
     text-decoration: none;
-    color: rgb(167, 12, 133);
+    color: white;
     text-align: center;
     font-weight: 900;
 }
