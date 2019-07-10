@@ -7,3 +7,7 @@ console.log(age);
 console.log (`Nazywam się ${name} i mam ${age} lat`);
 
 alert('Witam Cię na mojej stronie!');
+
+const navigation = document.querySelector('.navigation');
+
+console.log(navigation);

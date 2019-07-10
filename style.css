@@ -2,6 +2,13 @@ body {
     background-color: #FAB2EA;
     font-family: 'Lato', sans-serif;
 }
+
+main {
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+}
+
 .navigation {
     background-color: #4A051C;
     height: 45px;
@@ -30,17 +37,26 @@ body {
     text-transform: uppercase;
     letter-spacing: 5px;
     border-radius: 30px;
+    padding: 10px;
 }
 
 .paragraph {
     text-align: justify;
-    padding: 15px;
+    padding: 0 15px 0 15px;
 }
 
 .headerFlower {
     color: white;
     background: #4A051C;
     border-radius: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    padding: 5px;
+    box-sizing: border-box;
+    width: 400px;
+    height: 53px;
+    margin: auto;
 }
 
 .mainlink {
