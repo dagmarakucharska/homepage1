@@ -2,8 +2,8 @@ body {
     background-color: rgb(226, 186, 223);
     font-family: 'Lato', sans-serif;
 }
-
-main {
+/* First step to responsive website */
+.main {
     width: 100%;
     max-width: 800px;
     margin: auto;
@@ -18,22 +18,35 @@ main {
     border-radius: 30px;
 }
 
-.nav {
-    display: inline-block;
+.navigation__link {
+    text-decoration: none;
+    color: rgb(147, 100, 175);
+    text-align: center;
+    font-weight: 900;
 }
 
-.mainCaption {
+.header {
+    color: #4A051C;
+    text-align: center;
+}
+
+.header__title {
     color: #4A051C;
     text-transform: uppercase;
     letter-spacing: 5px;
 }
 
-.mainHeader {
-    color: #4A051C;
+.header__link {
+    text-decoration: none;
+    color: rgb(147, 100, 175);
     text-align: center;
+    font-weight: 900;
 }
 
-.sectionHeader {
+.about {
+    width: 800px;
+}
+.about__header {
     color: white;
     background: #4A051C;
     text-align: center;
@@ -43,12 +56,69 @@ main {
     padding: 10px;
 }
 
-.paragraph {
+.about__paragraph {
     text-align: justify;
     padding: 0 15px 0 15px;
 }
 
-.headerFlower {
+.about__link {
+    text-decoration: none;
+    color: rgb(147, 100, 175);
+    text-align: center;
+    font-weight: 900;
+}
+
+.story {
+    width: 800px;
+}
+
+.story__header {
+    color: white;
+    background: #4A051C;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+.story__paragraph {
+    text-align: justify;
+    padding: 0 15px 0 15px;
+}
+
+
+.first-plant__header {
+    color: white;
+    background: #4A051C;
+    border-radius: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    padding: 5px;
+    box-sizing: border-box;
+    width: 400px;
+    height: 53px;
+    margin: auto;
+}
+.first-plant__picture {
+    width: 100%;
+    max-width: 200px;
+    display: block;
+    float: left;
+}
+.first-plant__paragraph {
+    text-align: justify;
+    padding: 0 15px 0 15px;
+    clear: both;
+}
+
+.second-plant__
+{
+
+}
+
+.second-plant__header {
     color: white;
     background: #4A051C;
     border-radius: 30px;
@@ -62,9 +132,12 @@ main {
     margin: auto;
 }
 
-.mainlink {
-    text-decoration: none;
-    color: white;
-    text-align: center;
-    font-weight: 900;
+.second-plant__paragraph {
+    text-align: justify;
+    padding: 0 15px 0 15px;
+    clear: both;
+}
+
+.footer {
+    
 }

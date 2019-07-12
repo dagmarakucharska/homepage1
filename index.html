@@ -14,37 +14,34 @@
 
 <body>
     <header class="navigation">
-        <div class="nav">
-            <a href="index.html" class="mainlink"> Strona główna </a>
-        </div>
-        <div class="nav">
-            <a href="podstrona.html" class="mainlink"> Więcej o mnie </a>
-        </div>
-        <div class="nav">
-            <a href="kontakt.html" class="mainlink"> Kontakt i współpraca </a>
-        </div>
+
+        <a href="index.html" class="navigation__link"> Strona główna </a>
+        <a href="podstrona.html" class="navigation__link"> Więcej o mnie </a>
+        <a href="kontakt.html" class="navigation__link"> Kontakt i współpraca </a>
+
     </header>
 
-    <main>
-        <header class="mainHeader">
-            <h1 class="mainCaption">Moje kwiaty - Strona domowa</h1>
-            <a href="#kwiaty" class="mainlink"> Przejdź do sekcji "Moje kwiaty" </a>
+    <main class="main">
+        <header class="header">
+            <h1 class="header__title"> Moje kwiaty - Strona domowa </h1>
+            <a href="#kwiaty" class="header__link"> Przejdź do sekcji "Moje kwiaty" </a>
         </header>
-        <section>
-            <h2 class="sectionHeader"> O mnie </h2>
 
-            <p class="paragraph"> Mam 27 lat. Wychowałam się w małej miejscowości, w domu jednorodzinnym. Było i jest
+        <section class="about">
+            <h2 class="about__header"> O mnie </h2>
+
+            <p class="about__paragraph"> Mam 27 lat. Wychowałam się w małej miejscowości, w domu jednorodzinnym. Było i jest
                 tam wciąż mnóstwo
                 roślinności. Kwiaty, drzewa, krzewy. Tym samym chcę podzielić się z Wami swoim małym szczęściem, które
                 przenoszę do swojego małego mieszkania w Warszawie. <br />
-                <a href="podstrona.html" class="mainlink"> &#187; Więcej o mnie </a>
+                <a href="podstrona.html" class="about__link"> &#187; Więcej o mnie </a>
             </p>
 
         </section>
 
-        <section>
-            <h2 class="sectionHeader" id="kwiaty"> Moje kwiaty </h2>
-            <p class="paragraph">
+        <section class="story">
+            <h2 class="story__header" id="kwiaty"> Moje kwiaty </h2>
+            <p class="story__paragraph">
                 Przyjeżdżając w 2015 roku do Warszawy miałam możliwość mieszkania w kawalerce ok. 27-metrowej. Ze
                 względu na dość dobre warunki udało mi się utrzymać kilka gatunków kwitnących. Pelargonie, petunie
                 azalie, bratki. Teraz mieszkam w miejscu, w którym w okresie letnich upałów jest nawet całkiem znośnie.
@@ -55,9 +52,13 @@
             </p>
         </section>
 
-        <section>
-            <h3 class="headerFlower"> Najstarsza roślina - Pelargonia  </h3>
-            <p class="paragraph">
+        <section class="first-plant">
+
+            <img src="pic/pelargonium.JPG" alt="Pelargonia" class="first-plant__picture"/>
+
+            <h3 class="first-plant__header"> Najstarsza roślina - Pelargonia </h3>
+            
+            <p class="first-plant__paragraph">
 
                 Jest to bylina pochodząca z regionów Afryki (głównie południowej części tego kontynentu). Roślina bardzo
                 dobrze zachowuje się w polskich warunkach klimatycznych i moim skromnym zdaniem jest jedną z najczęściej
@@ -67,18 +68,16 @@
                 gatunku, która jest ze mną do tej pory. Wszystkie inne, które zostały zakupiłone na bazarze, czy w
                 kwiaciarniach niestety nie przeżyły. Ta natomiast ma się
                 całkiem nieźle, choć w tej chwili nie posiada kwiatów, a jest już połowa czerwca. Jest ze mną od wiosny
-                2017 roku. Czekam z niecierpliwością aż pokaże swoje pierwsze kwiaty w tym roku.
-
-                <img src="pic/pelargonium.JPG" alt="Pelargonia" />
+                2017 roku. Czekam z niecierpliwością aż pokaże swoje pierwsze kwiaty w tym roku.    
 
             </p>
         </section>
 
-        <section>
+        <section class="second-plant">
 
-            <h3> Zamioculcas </h3>
+            <h3 class="second-plant__header"> Zamioculcas </h3>
 
-            <p class="paragraph">
+            <p class="second-plant__paragraph">
 
                 Zamioculcas pojawił się mniej więcej w podobnym czasie co pelargonia. Zakupiłam go w pewnym sklepie
                 sieciowym, który rymuje się ze słowem stonka. Nie ma on tak nośnej historii jak ta w przypadku
@@ -88,7 +87,7 @@
         </section>
 
     </main>
-    <footer>
+    <footer class="footer">
         &copy; Wszelkie prawa zastrzeżone 2019
     </footer>
 
