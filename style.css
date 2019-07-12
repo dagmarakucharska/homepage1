@@ -19,7 +19,6 @@ body {
     box-sizing: border-box;
 }
 
-
 .navigation__link {
     text-decoration: none;
     color: rgb(147, 100, 175);
@@ -47,7 +46,8 @@ body {
 }
 
 .about {
-    width: 800px;
+    width: 100%;
+    max-width: 800px;
 }
 .about__header {
     color: white;
@@ -72,7 +72,8 @@ body {
 }
 
 .story {
-    width: 800px;
+    width: 100%;
+    max-width: 800px;
 }
 
 .story__header {
@@ -101,29 +102,23 @@ body {
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 5px;
-    padding: 5px;
+    padding: 10px;
     box-sizing: border-box;
-    width: 400px;
     height: 53px;
     margin: left;
 }
 .first-plant__picture {
     width: 100%;
     padding: 5px;
-    max-width: 168px;
+    max-width: 100px;
     border: 3px solid #4A051C;
     display: block;
     float: left;
+    margin: 0 16px 0 16px;
 }
 .first-plant__paragraph {
-    
     padding: 28px;
     text-align: justify;
-}
-
-.second-plant__
-{
-
 }
 
 .second-plant__header {
@@ -135,7 +130,6 @@ body {
     letter-spacing: 5px;
     padding: 5px;
     box-sizing: border-box;
-    width: 400px;
     height: 53px;
     margin: left;
 }
@@ -144,8 +138,4 @@ body {
     text-align: justify;
     padding: 0 15px 0 15px;
     clear: both;
-}
-
-.footer {
-
 }
