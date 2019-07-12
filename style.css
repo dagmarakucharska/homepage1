@@ -1,5 +1,5 @@
 body {
-    background-color: #FAB2EA;
+    background-color: rgb(226, 186, 223);
     font-family: 'Lato', sans-serif;
 }
 
@@ -26,8 +26,8 @@ main {
     color: #4A051C;
     text-transform: uppercase;
     letter-spacing: 5px;
-    
 }
+
 .mainHeader {
     color: #4A051C;
     text-align: center;
