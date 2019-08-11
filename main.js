@@ -7,7 +7,7 @@ console.log(age);
 
 console.log (`Nazywam się ${name} i mam ${age} lat`);
 
-alert('Witam Cię na mojej stronie!');
+/* alert('Witam Cię na mojej stronie!');  */
 
 /*Jak dostać się w DOM-ie do elementu w HTML-u*/
 const about = document.querySelector('.about')

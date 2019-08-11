@@ -1,3 +1,10 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *:after, *:before {
+    box-sizing: inherit;
+}
 body {
     background-color: rgb(226, 186, 223);
     font-family: 'Lato', sans-serif;
@@ -9,6 +16,7 @@ body {
     margin: auto;
 }
 
+
 .main-header {
     background-color: #4A051C;
     height: 45px;
@@ -19,6 +27,14 @@ body {
     box-sizing: border-box;
 }
 
+.navigation__list {
+    list-style: none;
+    padding: 0;
+}
+
+.navigation__item {
+    display: inline;
+}
 .navigation__link {
     text-decoration: none;
     color: rgb(147, 100, 175);
@@ -138,4 +154,17 @@ body {
     text-align: justify;
     padding: 0 15px 0 15px;
     clear: both;
+}
+
+.table__WTF {
+    color: white;
+    background: #4A051C;
+    border-radius: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    padding: 5px;
+    box-sizing: border-box;
+    height: 53px;
+    margin: left;
 }
